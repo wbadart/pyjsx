@@ -3,7 +3,7 @@ name = "python-jsx"
 authors = [{ name = "Tomas Roun", email = "tomas.roun8@gmail.com" }]
 description = "JSX transpiler for Python"
 readme = "README.md"
-requires-python = ">=3.10,<3.14"
+requires-python = ">=3.10,<=3.14"
 keywords = ["JSX", "React", "transpiler"]
 license = "Apache-2.0"
 classifiers = [
@@ -40,7 +40,7 @@ include = ["tests", "pyjsx"]
 exclude = ["pyjsx/codecs.py"] # Typeshed has incorrect types for `CodecInfo.decode`
 
 [tool.ruff]
-target-version = "py310"
+target-version = "py312"
 line-length = 120
 include = ["pyproject.toml"]
 
@@ -50,11 +50,11 @@ ignore = [
     "D",
     "ANN002",
     "ANN003",
-    "ANN101",
     "ANN204",
     "ANN401",
     "COM812",
     "BLE001",
+    "ERA001",
     "RET503",
     "ISC001",
     "N802",
