@@ -6,6 +6,8 @@
 ![PyPI - Version](https://img.shields.io/pypi/v/python-jsx)
 
 ```python
+from pyjsx import jsx, JSX
+
 def Header(style, children) -> JSX:
     return <h1 style={style}>{children}</h1>
 
