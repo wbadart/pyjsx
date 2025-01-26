@@ -34,10 +34,7 @@ Github = "https://github.com/tomasr8/pyjsx"
 testpaths = ["tests/"]
 
 [tool.pyright]
-venvPath = "."
-venv = ".venv"
 include = ["tests", "pyjsx"]
-exclude = ["pyjsx/codecs.py"] # Typeshed has incorrect types for `CodecInfo.decode`
 
 [tool.ruff]
 target-version = "py310"
