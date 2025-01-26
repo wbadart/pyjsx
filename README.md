@@ -3,15 +3,13 @@
 </p>
 
 # PyJSX - Write JSX directly in Python
+![PyPI - Version](https://img.shields.io/pypi/v/python-jsx)
 
 ```python
-# coding: jsx
-from pyjsx import jsx, JSX
-
-def Header(children, style=None, **rest) -> JSX:
+def Header(style, children) -> JSX:
     return <h1 style={style}>{children}</h1>
 
-def Main(children, **rest) -> JSX:
+def Main(children) -> JSX:
     return <main>{children}</main>
 
 def App() -> JSX:
