@@ -1,4 +1,4 @@
-from pyjsx.codecs import register_jsx
+from pyjsx.codec_hook import register_jsx
 from pyjsx.import_hook import register_import_hook
 
 

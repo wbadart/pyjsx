@@ -1,4 +1,4 @@
-from pyjsx.codecs import register_jsx
+from pyjsx.codec_hook import register_jsx
 from pyjsx.jsx import JSX, JSXComponent, jsx
 from pyjsx.transpiler import transpile
 
