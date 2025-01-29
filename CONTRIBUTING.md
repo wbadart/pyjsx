@@ -6,7 +6,7 @@ an issue and/or submit a PR!
 ## Developing
 
 To contribute to this project, a development environment is recommended. You'll
-need Python >= 3.12.
+need Python 3.10+.
 
 ```sh
 python -m venv venv
